@@ -11,6 +11,6 @@
     if($send_message){
         echo "Thank you!"
     } else {
-        echo "Error!";
+        echo "Error!"
     }
 ?>
