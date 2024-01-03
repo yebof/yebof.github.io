@@ -20,4 +20,4 @@ I am a research fellow at the Nanyang Technological University (NTU), Singapore.
 
 My research interests include network security, network traffic analysis, blockchain security, decentralized finance (DeFi), DDoS defense, and machine learning for security.
 
-I am the recipient of the Best Paper Award of 2019 IEEE CNS, Gurdeep Pall Graduate Student Fellowship of UO, and Ripple Research Fellowship. I have served as the reviewer of IEEE TDSC, IEEE TIFS, IEEE JSAC, ACM TKDD, etc. I was on the program committees of several international conferences, such as CIKM, CYBER, SECURWARE, etc. I was also on the AE committees of USENIX OSDI and USENIX ATC.
+I am the recipient of the Best Paper Award of 2019 IEEE CNS, Gurdeep Pall Graduate Student Fellowship of UO, and Ripple Research Fellowship. I have served as the reviewer of IEEE TDSC, IEEE TIFS, IEEE JSAC, ACM TKDD, etc. I was on the program committees of several international conferences, such as SDM, CIKM, CYBER, etc. I was also on the AE committees of USENIX OSDI and USENIX ATC.
