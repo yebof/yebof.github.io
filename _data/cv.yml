@@ -2,96 +2,141 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Yebo Feng
+    - name: Email
+      value: yebo.feng@ntu.edu.sg / fengyebo@gmail.com
+    - name: Skype
+      value: sunsonfyb
     - name: Languages
-      value: English, German
+      value: English, Chinese
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Ph.D. in Computer Science
+      institution: Department of Computer and Information Science, University of Oregon
+      year: 2018 - 2023
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - "Adviser: Prof. Jun Li."
+        - title: Dissertation
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+            - "Fine-grained, Content-agnostic Network Traffic Analysis for Malicious Activity Detection"
+        - "GPA: 3.99."
 
-- title: Experience
-  type: time_table
-  contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: M.S. in Computer and Information Science
+      institution: Department of Computer and Information Science, University of Oregon
+      year: 2016 - 2018
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - "Adviser: Prof. Jun Li."
+        - title: Master Thesis
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+            - "BotFlowMon: Identify Social Bot Traffic with NetFlow and Machine Learning"
+        - "GPA: 3.89."
+
+    - title: B.E. in Computer Science and Technology
+      institution: College of Information Engineering, Yangzhou University
+      year: 2012 - 2016
       description:
-        - Description 1.
-        - Description 2.
+        - "Adviser: Prof. Xiaohua Xu."
+        - title: Bachelor Thesis
+          contents:
+            - Clustering Algorithm Based on Density Sort and Valley Point Competition
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
+# - title: Experience
+#   type: time_table
+#   contents:
+#     - title: Research Assistant
+#       institution: Center for Cyber Security and Privacy, University of Oregon, Eugene, U.S.
+#       year: Sep 2022 - Present
+#       description:
+#         - Research on application-layer anomaly detection with network-layer traffic data.
+#         - Design and evaluate privacy-preserving decentralized exchange (DEX) with automated market makers (AMMs).
 
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
+#     - title: Visiting Research Assistant
+#       institution: Information Sciences Institute, University of Southern California, Marina del Rey, U.S.
+#       year: Jun 2022 - Sep 2022
+#       description:
+#         - Design and implementation of fine-grained network host fingerprinting for anomaly detection and intelligent troubleshooting agents.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+#     - title: Researcher (part-time)
+#       institution: Ripple Labs, Inc., San Francisco, U.S.
+#       year: Jun 2022 - Sep 2022
+#       description:
+#         - Help coordinate research projects and events under the University Blockchain Research Initiative (UBRI), a partnership between Ripple and top universities around the world to support academic research, technical development and innovation in blockchain, cryptocurrency, and FinTech.
+#         - Collect, synthesize, and report on high-quality blockchain-related research. Connect Ripplers with relevant research projects, papers, and scholars.
 
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+#     - title: Research Assistant
+#       institution: Center for Cyber Security and Privacy, University of Oregon, Eugene, U.S.
+#       year: Sep 2021 - Jun 2022
+#       description:
+#         - Research on application-layer web activity inference with network-layer traffic data (supported by Ripple Research Fellowship).
+#         - Develop adaptive distributed denial of service (DDoS) attack defense (supported by the Science and Technology Directorate of the United States Department of Homeland Security under contract number D15PC00204)
+#         - Design and evaluate privacy-preserving decentralized exchange (DEX) with automated market makers (AMMs).
 
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
+#     - title: Research Associate
+#       institution: Ripple Labs, Inc., San Francisco, U.S.
+#       year: Jun 2021 - Sep 2021
+#       description:
+#         - Help coordinate research projects and events under the University Blockchain Research Initiative (UBRI), a partnership between Ripple and top universities around the world to support academic research, technical development and innovation in blockchain, cryptocurrency, and FinTech.
+#         - Study, evaluate, and organize academic papers from UBRI researchers.
+#         - Cooperate with researchers from University College London (UCL) on research related to decentralized exchange (DEX) with automated market makers (AMMs).
+    
+#     - title: Research Assistant
+#       institution: Center for Cyber Security and Privacy, University of Oregon, Eugene, U.S.
+#       year: Dec 2018 - Jun 2021
+#       description:
+#         - Research on examining online social network fraud and attacks with privacy-enhancing machine learning (supported by the United States National Science Foundation under Grant No. 1564348).
+#         - Research on machine-learning-based detection of cryptojacking activities in network traffic (supported by Ripple Research Fellowship).
+#         - Design and development of in-network-based DDoS defense solutions (funded by the Science and Technology Directorate of the United States Department of Homeland Security under contract number D15PC00204).
+    
+#     - title: Research Intern
+#       institution: China Academy for Information and Communications Technology (CAICT), Beijing, China.
+#       year: Jun 2020 - Oct 2020
+#       description:
+#         - Research on the establishment of network security standards for medical IoT devices.
+    
+#     - title: Teaching Assistant - CIS 451 Database Processing
+#       institution: Department of Computer and Information Science, University of Oregon, Eugene, U.S.
+#       year: Sep 2018 - Dec 2018
+    
+#     - title: Lab Instructor & Teaching Assistant - CIT 281 Web Applications Development I
+#       institution: Department of Computer and Information Science, University of Oregon, Eugene, U.S.
+#       year: Mar 2018 - Jun 2018
+    
+#     - title: Lab Instructor & Teaching Assistant - CIS 110 Fluency with Information Technology
+#       institution: Department of Computer and Information Science, University of Oregon, Eugene, U.S.
+#       year: Dec 2017 - Mar 2018
+    
+#     - title: Teaching Assistant - CIS 451 Database Processing
+#       institution: Department of Computer and Information Science, University of Oregon, Eugene, U.S.
+#       year: Sep 2017 - Dec 2017
+    
+#     - title: Research Assistant
+#       institution: Network & Security Research Laboratory, University of Oregon, Eugene, U.S.
+#       year: Jun 2017 - Sep 2017
+#       description:
+#         - Research on examining online social network fraud and attacks with privacy-enhancing machine learning (supported by the United States National Science Foundation under Grant No. 1564348).
 
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+# - title: Academic Interests
+#   type: nested_list
+#   contents:
+#     - title: Network Security & Privacy
+#       items: 
+#         - intrusion detection
+#         - DDoS defense
+#         - social network security & Privacy
+#     - title: Network Traffic Analysis
+#       items:
+#         - content-agnostic network traffic analysis
+#         - large-scale traffic measurement
+#     - title: Blockchain Security
+#       items:
+#         - blockchain traffic analysis
+#         - DEX security & privacy
+#     - title: Decentralized Finance (DeFi)
+#       items:
+#         - DEX with AMM
+#         - yield farming / yield aggregator
+#     - title: Machine Learning in Security
+#       items:
+#         - usable ML-based attack detection and defense system

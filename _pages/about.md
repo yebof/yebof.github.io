@@ -2,25 +2,22 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Ph.D.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: Yebo.JPG
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Email: yebo.feng@ntu.edu.sg</p>
 
 news: true  # includes a list of news items
-latest_posts: true  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+social: false  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a research fellow at the Nanyang Technological University (NTU), Singapore. I am working with [Prof. Liu, Yang](https://personal.ntu.edu.sg/yangliu/) on computer security and privacy. Before joining NTU, I received my Ph.D. degree from the [Computer Science Department](https://cs.uoregon.edu/) at the University of Oregon (UO), where I conducted my research in the [Center for Cyber Security and Privacy (CCSP)](https://ccsp.uoregon.edu/).
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My research interests include network security, network traffic analysis, blockchain security, decentralized finance (DeFi), DDoS defense, and machine learning for security.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I am the recipient of the Best Paper Award of 2019 IEEE CNS, Gurdeep Pall Graduate Student Fellowship of UO, and Ripple Research Fellowship. I have served as the reviewer of IEEE TDSC, IEEE TIFS, IEEE JSAC, ACM TKDD, etc. I was on the program committees of several international conferences, such as CIKM, CYBER, SECURWARE, etc. I was also on the AE committees of USENIX OSDI and USENIX ATC.
