@@ -30,7 +30,7 @@ nav_order: 3
 ### Program Committee (PC)
 
 - SIAM International Conference on Data Mining (SDM): 2024.
-- International Cryptoasset Analytics Workshop (CAAW): 2023.
+- International Cryptoasset Analytics Workshop (CAAW): 2023, 2024.
 - ACM International Conference on Information and Knowledge Management (CIKM): 2022.
 - International Conference on Cyber-Technologies and Cyber-Systems (CYBER): 2020 - 2023.
 - International Conference on Emerging Security Information, Systems and Technologies (SECURWARE): 2020 - 2023.
