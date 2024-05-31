@@ -8,10 +8,6 @@ nav: true
 nav_order: 3
 ---
 
-### Judging Committee
-
-- XRPL Grants: Wave 3 and Wave 4, 2022; Wave 5, Wave 6, and Wave 7, 2023.
-
 ### Reviewer for Journals
 
 - IEEE Transactions on Dependable and Secure Computing (TDSC).
@@ -19,6 +15,7 @@ nav_order: 3
 - IEEE Journal on Selected Areas in Communications (JSAC).
 - IEEE Transactions on Mobile Computing (TMC).
 - ACM Transactions on Knowledge Discovery from Data (TKDD).
+- IEEE Transactions on Network and Service Management (TNSM).
 - IEEE Communications Surveys and Tutorials (COMST).
 - IEEE Transactions on Systems, Man and Cybernetics: Systems (TSMC).
 - IEEE Transactions on Reliability.
@@ -39,7 +36,7 @@ nav_order: 3
 ### Reviewer for Conferences/Workshops
 
 - IEEE Wireless Communications and Networking Conference (WCNC): 2024.
-- ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD): 2023.
+- ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD): 2023, 2024.
 - International Conference on Electrical, Computer and Energy Technologies (ICECET): 2023.
 - IEEE International Conference on Electrical, Computer, Communications and Mechatronics Engineering (ICECCME): 2023.
 - IEEE/ACM International Symposium on Quality of Service (IWQoS): 2021, 2022.
@@ -47,6 +44,9 @@ nav_order: 3
 ### Artifact Evaluation Committee
 - USENIX Symposium on Operating Systems Design and Implementation (OSDI): 2022.
 - USENIX Annual Technical Conference (ATC): 2022.
+
+### Judging Committee
+- XRPL Grants: Wave 3 and Wave 4, 2022; Wave 5, Wave 6, and Wave 7, 2023.
 
 ### Web Team Member
 
