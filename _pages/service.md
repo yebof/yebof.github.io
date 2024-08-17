@@ -33,6 +33,10 @@ nav_order: 3
 - International Conference on Emerging Security Information, Systems and Technologies (SECURWARE): 2020 - 2023.
 - Blockchain and Cryptocurrency Congress (B2C): 2022.
   
+### Editorial Board
+
+- Guest Editor: Sensors, 2024.
+
 ### Reviewer for Conferences/Workshops
 
 - IEEE Wireless Communications and Networking Conference (WCNC): 2024.
@@ -46,7 +50,7 @@ nav_order: 3
 - USENIX Annual Technical Conference (ATC): 2022.
 
 ### Judging Committee
-- XRPL Grants: Wave 3 and Wave 4, 2022; Wave 5, Wave 6, and Wave 7, 2023.
+- XRPL Grants: Wave 3 and Wave 4, 2022; Wave 5, Wave 6, and Wave 7, 2023; Rolling Application, 2024.
 
 ### Web Team Member
 
