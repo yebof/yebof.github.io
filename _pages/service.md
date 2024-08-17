@@ -22,6 +22,7 @@ nav_order: 3
 - IEEE Internet of Things Journal (IoTJ).
 - Security and Communication Networks (SCN).
 - Financial Innovation (FIN).
+- Journal of Medical Internet Research (JMIR).
 - Blockchain: Research and Applications.
 
 ### Program Committee (PC)
