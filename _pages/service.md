@@ -42,9 +42,9 @@ nav_order: 3
 
 - IEEE Wireless Communications and Networking Conference (WCNC): 2024.
 - ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD): 2023, 2024.
+- IEEE/ACM International Symposium on Quality of Service (IWQoS): 2021, 2022, 2024.
 - International Conference on Electrical, Computer and Energy Technologies (ICECET): 2023.
 - IEEE International Conference on Electrical, Computer, Communications and Mechatronics Engineering (ICECCME): 2023.
-- IEEE/ACM International Symposium on Quality of Service (IWQoS): 2021, 2022.
 
 ### Artifact Evaluation Committee
 - USENIX Symposium on Operating Systems Design and Implementation (OSDI): 2022.
