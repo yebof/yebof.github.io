@@ -23,6 +23,7 @@ nav_order: 3
 - Security and Communication Networks (SCN).
 - Financial Innovation (FIN).
 - Journal of Medical Internet Research (JMIR).
+- Future Internet.
 - Blockchain: Research and Applications.
 
 ### Program Committee (PC)
