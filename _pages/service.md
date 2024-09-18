@@ -25,6 +25,7 @@ nav_order: 3
 - Journal of Medical Internet Research (JMIR).
 - Future Internet.
 - Cybernetics and Systems.
+- Distributed Ledger Technologies.
 - Blockchain: Research and Applications.
 
 ### Program Committee (PC)
