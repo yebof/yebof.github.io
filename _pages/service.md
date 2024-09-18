@@ -24,6 +24,7 @@ nav_order: 3
 - Financial Innovation (FIN).
 - Journal of Medical Internet Research (JMIR).
 - Future Internet.
+- Cybernetics and Systems.
 - Blockchain: Research and Applications.
 
 ### Program Committee (PC)
