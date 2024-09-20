@@ -49,6 +49,10 @@
   url: https://arxiv.org/
   color: orange
 
+"TechRxiv":
+  url: https://www.techrxiv.org/
+  color: orange
+
 "RG Preprints":
   url: https://www.researchgate.net/
   color: orange
