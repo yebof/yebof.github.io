@@ -23,6 +23,7 @@ nav_order: 3
 - Security and Communication Networks (SCN).
 - Financial Innovation (FIN).
 - Journal of Medical Internet Research (JMIR).
+- Journal of Information and Intelligence.
 - Future Internet.
 - Cybernetics and Systems.
 - Distributed Ledger Technologies.
