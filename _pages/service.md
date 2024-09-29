@@ -8,6 +8,11 @@ nav: true
 nav_order: 3
 ---
 
+### Editorial Board
+
+- Guest Editor: Sensors, 2024.
+- Youth Editorial Board Member: Journal of Information and Intelligence (JII).
+
 ### Reviewer for Journals
 
 - IEEE Transactions on Dependable and Secure Computing (TDSC).
@@ -23,11 +28,13 @@ nav_order: 3
 - Security and Communication Networks (SCN).
 - Financial Innovation (FIN).
 - Journal of Medical Internet Research (JMIR).
-- Journal of Information and Intelligence.
+- Journal of Information and Intelligence (JII).
 - Future Internet.
+- Sensors.
 - Cybernetics and Systems.
 - Distributed Ledger Technologies.
 - Blockchain: Research and Applications.
+- Chinese Journal of Electronics.
 
 ### Program Committee (PC)
 
@@ -37,10 +44,6 @@ nav_order: 3
 - International Conference on Cyber-Technologies and Cyber-Systems (CYBER): 2020 - 2023.
 - International Conference on Emerging Security Information, Systems and Technologies (SECURWARE): 2020 - 2023.
 - Blockchain and Cryptocurrency Congress (B2C): 2022.
-  
-### Editorial Board
-
-- Guest Editor: Sensors, 2024.
 
 ### Reviewer for Conferences/Workshops
 
