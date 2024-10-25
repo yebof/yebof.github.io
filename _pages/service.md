@@ -26,6 +26,7 @@ nav_order: 3
 - IEEE Transactions on Reliability.
 - IEEE Internet of Things Journal (IoTJ).
 - Security and Communication Networks (SCN).
+- IEEE Transactions on Computational Social Systems (TCSS).
 - Financial Innovation (FIN).
 - Journal of Medical Internet Research (JMIR).
 - Journal of Information and Intelligence (JII).
