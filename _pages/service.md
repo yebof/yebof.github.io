@@ -18,6 +18,7 @@ nav_order: 3
 - IEEE Transactions on Dependable and Secure Computing (TDSC).
 - IEEE Transactions on Information Forensics and Security (TIFS).
 - IEEE Journal on Selected Areas in Communications (JSAC).
+- Transactions on Software Engineering and Methodology (TOSEM).
 - IEEE Transactions on Mobile Computing (TMC).
 - ACM Transactions on Knowledge Discovery from Data (TKDD).
 - IEEE Transactions on Network and Service Management (TNSM).
@@ -36,6 +37,8 @@ nav_order: 3
 - Distributed Ledger Technologies.
 - Blockchain: Research and Applications.
 - Chinese Journal of Electronics.
+- IEEE Network Magazine.
+- 西安电子科技大学学报。
 
 ### Program Committee (PC)
 
