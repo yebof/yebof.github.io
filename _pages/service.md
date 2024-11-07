@@ -18,7 +18,7 @@ nav_order: 3
 - IEEE Transactions on Dependable and Secure Computing (TDSC).
 - IEEE Transactions on Information Forensics and Security (TIFS).
 - IEEE Journal on Selected Areas in Communications (JSAC).
-- Transactions on Software Engineering and Methodology (TOSEM).
+- ACM Transactions on Software Engineering and Methodology (TOSEM).
 - IEEE Transactions on Mobile Computing (TMC).
 - ACM Transactions on Knowledge Discovery from Data (TKDD).
 - IEEE Transactions on Network and Service Management (TNSM).
