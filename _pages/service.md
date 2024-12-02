@@ -43,7 +43,7 @@ nav_order: 3
 ### Program Committee (PC)
 
 - SIAM International Conference on Data Mining (SDM): 2024.
-- International Cryptoasset Analytics Workshop (CAAW): 2023, 2024.
+- International Cryptoasset Analytics Workshop (CAAW): 2023, 2024, 2025.
 - ACM International Conference on Information and Knowledge Management (CIKM): 2022.
 - International Conference on Cyber-Technologies and Cyber-Systems (CYBER): 2020 - 2023.
 - International Conference on Emerging Security Information, Systems and Technologies (SECURWARE): 2020 - 2023.
@@ -51,6 +51,7 @@ nav_order: 3
 
 ### Reviewer for Conferences/Workshops
 
+- ACM The Web Conference: 2024.
 - IEEE Wireless Communications and Networking Conference (WCNC): 2024.
 - ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD): 2023, 2024.
 - IEEE/ACM International Symposium on Quality of Service (IWQoS): 2021, 2022, 2024.

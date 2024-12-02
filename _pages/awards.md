@@ -7,6 +7,8 @@ nav: true
 nav_order: 4
 ---
 
+##### **2024 Wits Global Fintech Conference Best Paper Award**, _Wits Fintech Hub. (Nov 2024)_
+
 ##### **RAID 2022 Student Travel Grant**, _Organizing Committee of RAID. (August 2022)_
 
 ##### **Ripple Graduate Fellowship**, _Ripple Labs, Inc. (2021 - 2022)_
