@@ -89,3 +89,7 @@
 
 "FC 25":
   url: https://fc25.ifca.ai/
+
+"TOSEM":
+  url: https://dl.acm.org/journal/tosem
+  color: blue
