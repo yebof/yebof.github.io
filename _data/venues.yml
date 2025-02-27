@@ -93,3 +93,7 @@
 "TOSEM":
   url: https://dl.acm.org/journal/tosem
   color: blue
+
+"COMST":
+  url: https://www.comsoc.org/publications/journals/ieee-comst
+  color: blue
