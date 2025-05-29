@@ -107,3 +107,7 @@
 "TSC":
   url: https://www.computer.org/csdl/journal/sc
   color: blue
+
+"TMC":
+  url: https://www.computer.org/csdl/journal/tm
+  color: blue
