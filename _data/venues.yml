@@ -112,6 +112,10 @@
   url: https://www.computer.org/csdl/journal/tm
   color: blue
 
+"TIFS":
+  url: https://signalprocessingsociety.org/publications-resources/ieee-transactions-information-forensics-and-security
+  color: blue
+
 "ICBC 25":
   url: https://icbc2025.ieee-icbc.org/
 
