@@ -138,3 +138,7 @@
 "TKDE":
   url: https://www.computer.org/csdl/journal/tk
   color: blue
+
+"JSA":
+  url: https://www.sciencedirect.com/journal/journal-of-systems-architecture
+  color: blue
