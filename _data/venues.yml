@@ -142,3 +142,7 @@
 "JSA":
   url: https://www.sciencedirect.com/journal/journal-of-systems-architecture
   color: blue
+
+"CN":
+  url: https://www.sciencedirect.com/journal/computer-networks
+  color: blue
