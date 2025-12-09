@@ -146,6 +146,10 @@
 "COMNET":
   url: https://www.sciencedirect.com/journal/computer-networks
   color: blue
+
+"CJE":
+  url: https://cje.ejournal.org.cn/
+  color: blue
   
 "ASE 25":
   url: https://conf.researchr.org/home/ase-2025
