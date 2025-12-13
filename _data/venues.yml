@@ -135,6 +135,9 @@
 "RAID 25":
   url: https://raid2025.github.io/
 
+"ICDCSW 25":
+  url: https://icdcs2025.icdcs.org/
+
 "TKDE":
   url: https://www.computer.org/csdl/journal/tk
   color: blue
