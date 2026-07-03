@@ -15,6 +15,10 @@
 "USENIX SEC 26":
   url: https://www.usenix.org/conference/usenixsecurity26
 
+"TOIT":
+  url: https://dl.acm.org/journal/TOIT
+  color: blue
+
 "ACISP 26":
   url: https://acisp.org/index.html
 
