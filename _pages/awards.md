@@ -7,7 +7,7 @@ nav: true
 nav_order: 4
 ---
 
-##### **2026 Nanyang Blockchain Conference Best Paper Award**, _NBC 2026 TPC Co-Chairs. (August 2026)_
+##### **2026 NBC Best Paper Award**, _NBC 2026 TPC Co-Chairs. (August 2026)_
 
 ##### **2025 DSPP Best Paper Award**, _DSPP 2025 Chairs. (Oct 2025)_
 
