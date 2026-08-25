@@ -9,6 +9,8 @@ nav_order: 4
 
 ##### **2026 NBC Best Paper Award**, _NBC 2026 TPC. (August 2026)_
 
+##### **USENIX Security 2026 Professional Grants**, _USENIX Association. (August 2026)_
+
 ##### **2025 DSPP Best Paper Award**, _DSPP 2025 Chairs. (Oct 2025)_
 
 ##### **2024 Wits Global Fintech Conference Best Paper Award**, _Wits Fintech Hub. (Nov 2024)_
