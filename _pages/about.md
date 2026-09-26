@@ -6,7 +6,7 @@ subtitle: Ph.D.
 
 profile:
   align: right
-  image: Yebo.JPG
+  image: Yebo_2026.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Email: yebo.feng@ntu.edu.sg</p>
