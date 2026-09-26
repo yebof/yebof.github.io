@@ -184,6 +184,18 @@ blockquote {
   margin-right: 1rem;
 }
 
+.profile.home-profile {
+  figure {
+    width: 70%;
+    max-width: 260px;
+    margin-inline: auto;
+  }
+
+  .more-info {
+    text-align: center;
+  }
+}
+
 @media (min-width: 576px) {
   .profile {
     width: 30%;
@@ -192,6 +204,18 @@ blockquote {
       p {
         display: block;
       }
+    }
+  }
+
+  .profile.home-profile {
+    width: 26%;
+
+    figure {
+      width: 100%;
+    }
+
+    .more-info {
+      text-align: left;
     }
   }
 }
