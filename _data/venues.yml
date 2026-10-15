@@ -73,6 +73,10 @@
   url: https://arxiv.org/
   color: orange
 
+"SSRN":
+  url: https://www.ssrn.com/
+  color: orange
+
 "TechRxiv":
   url: https://www.techrxiv.org/
   color: orange
