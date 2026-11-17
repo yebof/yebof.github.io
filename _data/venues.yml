@@ -139,6 +139,10 @@
   url: https://www.computer.org/csdl/journal/sc
   color: blue
 
+"TPDS":
+  url: https://www.computer.org/csdl/journal/td
+  color: blue
+
 "TMC":
   url: https://www.computer.org/csdl/journal/tm
   color: blue
