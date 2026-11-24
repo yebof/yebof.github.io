@@ -139,6 +139,10 @@
   url: https://www.computer.org/csdl/journal/sc
   color: blue
 
+"MIR":
+  url: https://link.springer.com/journal/11633
+  color: blue
+
 "TPDS":
   url: https://www.computer.org/csdl/journal/td
   color: blue
