@@ -660,8 +660,19 @@ footer.sticky-bottom {
 
 .publications {
   .author-legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25rem 1rem;
     font-size: 0.875rem;
     color: var(--global-text-color-light);
+
+    > span {
+      white-space: nowrap;
+    }
+
+    .corresponding-author {
+      margin-left: 0;
+    }
   }
 
   margin-top: 2rem;
