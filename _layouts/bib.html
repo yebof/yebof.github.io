@@ -37,6 +37,7 @@
         <!-- Author -->
         <div class="author">
         {% assign author_array_size = entry.author_array | size %}
+        {% assign corresponding_keys = entry.corresponding | corresponding_author_keys %}
 
         {% assign author_array_limit = author_array_size %}
         {%- if site.max_author_limit and author_array_size > site.max_author_limit %}
@@ -74,6 +75,10 @@
               {{author.first}} {{author.last}}
             {%- endif -%}
           {%- endif -%}
+          {%- assign author_key = author | corresponding_author_key -%}
+          {%- if corresponding_keys contains author_key -%}
+            <span class="corresponding-author" role="img" aria-label="Corresponding author" title="Corresponding author"><svg width="13" height="13" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.3" aria-hidden="true" focusable="false"><rect x="1.5" y="3" width="13" height="10" rx="1.2"/><path d="m2 4 6 4.5L14 4"/></svg></span>
+          {%- endif -%}
         {%- endfor -%}
         {%- assign more_authors = author_array_size | minus: author_array_limit -%}
 
@@ -85,6 +90,10 @@
           {%- assign more_authors_show = '' -%}
           {%- for author in entry.author_array offset: author_array_limit -%}
             {%- assign more_authors_show = more_authors_show | append: author.first | append: " " | append: author.last -%}
+            {%- assign author_key = author | corresponding_author_key -%}
+            {%- if corresponding_keys contains author_key -%}
+              {%- assign more_authors_show = more_authors_show | append: " ✉" -%}
+            {%- endif -%}
             {%- unless forloop.last -%}
               {%- assign more_authors_show = more_authors_show | append: ", " -%}
             {%- endunless -%}
