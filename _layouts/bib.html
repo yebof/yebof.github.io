@@ -38,6 +38,7 @@
         <div class="author">
         {% assign author_array_size = entry.author_array | size %}
         {% assign corresponding_keys = entry.corresponding | corresponding_author_keys %}
+        {% assign equal_contribution_keys = entry.equal_contribution | corresponding_author_keys %}
 
         {% assign author_array_limit = author_array_size %}
         {%- if site.max_author_limit and author_array_size > site.max_author_limit %}
@@ -67,20 +68,25 @@
             {%- if forloop.last and author_array_limit == author_array_size -%}and&nbsp;{%- endif -%}
           {%- endif -%}
           {%- assign author_key = author | corresponding_author_key -%}
+          {%- capture equal_contribution_mark -%}
+            {%- if equal_contribution_keys contains author_key -%}
+              <sup class="equal-contribution" aria-label="Equal contribution" title="Equal contribution">†</sup>
+            {%- endif -%}
+          {%- endcapture -%}
           {%- capture corresponding_icon -%}
             {%- if corresponding_keys contains author_key -%}
               <span class="corresponding-author" role="img" aria-label="Corresponding author" title="Corresponding author"><svg width="12" height="12" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="1.5" y="3" width="13" height="10" rx="1.5"/><path d="m2 4 6 4.5L14 4"/></svg></span>
             {%- endif -%}
           {%- endcapture -%}
           {%- if author_is_self -%}
-            <em class="author-self">{{author.first}} {{author.last}}{{corresponding_icon}}</em>
+            <em class="author-self">{{author.first}} {{author.last}}{{equal_contribution_mark}}{{corresponding_icon}}</em>
           {%- else -%}
             {%- if coauthor_url -%}
               <a href="{{coauthor_url}}">{{author.first}} {{author.last}}</a>
             {%- else -%}
               {{author.first}} {{author.last}}
             {%- endif -%}
-            {{corresponding_icon}}
+            {{equal_contribution_mark}}{{corresponding_icon}}
           {%- endif -%}
         {%- endfor -%}
         {%- assign more_authors = author_array_size | minus: author_array_limit -%}
@@ -94,6 +100,9 @@
           {%- for author in entry.author_array offset: author_array_limit -%}
             {%- assign more_authors_show = more_authors_show | append: author.first | append: " " | append: author.last -%}
             {%- assign author_key = author | corresponding_author_key -%}
+            {%- if equal_contribution_keys contains author_key -%}
+              {%- assign more_authors_show = more_authors_show | append: "†" -%}
+            {%- endif -%}
             {%- if corresponding_keys contains author_key -%}
               {%- assign more_authors_show = more_authors_show | append: " ✉" -%}
             {%- endif -%}

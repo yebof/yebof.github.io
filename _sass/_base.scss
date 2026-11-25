@@ -659,6 +659,11 @@ footer.sticky-bottom {
 // Publications
 
 .publications {
+  .author-legend {
+    font-size: 0.875rem;
+    color: var(--global-text-color-light);
+  }
+
   margin-top: 2rem;
 
   h1 {
@@ -737,6 +742,15 @@ footer.sticky-bottom {
             border-bottom-style: solid;
             text-decoration: none;
           }
+        }
+
+        .equal-contribution {
+          position: relative;
+          top: -0.4em;
+          margin-left: 0.08em;
+          font-size: 0.7em;
+          line-height: 0;
+          vertical-align: baseline;
         }
 
         >em {

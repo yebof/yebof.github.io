@@ -21,11 +21,11 @@ class CorrespondingAuthorsTest < Minitest::Test
   end
 
   # Render the actual author block used by both publication lists.
-  def render_authors(value, limit = nil)
+  def render_authors(value, limit = nil, equal_contribution = nil)
     source = File.read(File.expand_path('../_layouts/bib.html', __dir__))
     block = source.split('<div class="author">', 2).last.split('<!-- Journal/Book title and date -->', 2).first
     Liquid::Template.parse(block).render!(
-      'entry' => { 'corresponding' => value, 'author_array' => [
+      'entry' => { 'corresponding' => value, 'equal_contribution' => equal_contribution, 'author_array' => [
         { 'first' => 'Yebo', 'last' => 'Feng' }, { 'first' => 'Konglin', 'last' => 'Zhu' }
       ] },
       'site' => { 'scholar' => { 'first_name' => ['Yebo'], 'last_name' => ['Feng'] },
@@ -41,5 +41,16 @@ class CorrespondingAuthorsTest < Minitest::Test
     assert_equal 2, html.scan('class="corresponding-author"').size
     assert_match(/<em class="author-self">Yebo Feng<span class="corresponding-author".*?<\/span><\/em>/, html)
     assert_includes render_authors('Konglin Zhu', 1), 'Konglin Zhu ✉'
+  end
+
+  def test_equal_contribution_marks_and_corresponding_icons_coexist
+    assert_equal 0, render_authors(nil).scan('class="equal-contribution"').size
+    assert_equal 0, render_authors(nil, nil, '').scan('class="equal-contribution"').size
+    html = render_authors('Yebo Feng', nil, 'Feng, Yebo and Konglin Zhu')
+    assert_equal 2, html.scan('class="equal-contribution"').size
+    assert_equal 1, html.scan('class="corresponding-author"').size
+    assert_match(/<em class="author-self">Yebo Feng<sup.*?†<\/sup><span class="corresponding-author".*?<\/span><\/em>/, html)
+    assert_includes render_authors('Konglin Zhu', 1, 'Konglin Zhu'), 'Konglin Zhu† ✉'
+    assert_equal 0, render_authors(nil, nil, 'Yebo Fengson').scan('class="equal-contribution"').size
   end
 end

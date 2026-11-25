@@ -15,4 +15,5 @@ nav_order: 1
   {% bibliography -f papers -q @*[year={{y}}]* %}
 {% endfor %}
 
+{% include publication_author_legend.html %}
 </div>
