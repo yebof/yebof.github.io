@@ -465,14 +465,6 @@ footer.sticky-bottom {
   }
 }
 
-.publications .author em.author-self {
-  display: inline-block;
-  white-space: nowrap;
-  line-height: 1.1;
-  text-decoration: none;
-  border-bottom: 1px solid currentColor;
-}
-
 // CV
 
 .cv {
@@ -750,6 +742,27 @@ footer.sticky-bottom {
         >em {
           border-bottom: 1px solid;
           font-style: normal;
+
+          &.author-self {
+            position: relative;
+            display: inline-block;
+            white-space: nowrap;
+            line-height: 1.1;
+            text-decoration: none;
+            border-bottom: 0;
+
+            // Position the shared underline independently of the font's line box.
+            &::after {
+              content: "";
+              position: absolute;
+              left: 0;
+              right: 0;
+              bottom: 0.1em;
+              height: 1px;
+              background: currentColor;
+              pointer-events: none;
+            }
+          }
         }
 
         >span.more-authors {
