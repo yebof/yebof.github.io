@@ -453,11 +453,24 @@ footer.sticky-bottom {
 }
 
 .corresponding-author {
-  display: inline-block;
-  margin-left: 0.2em;
+  display: inline-flex;
+  margin-left: 0.3em;
+  margin-right: 0.08em;
   line-height: 1;
-  vertical-align: baseline;
+  vertical-align: -0.04em;
   color: inherit;
+  svg {
+    width: 0.78em;
+    height: 0.78em;
+  }
+}
+
+.publications .author em.author-self {
+  display: inline-block;
+  white-space: nowrap;
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
+  padding-bottom: 0.08em;
 }
 
 // CV

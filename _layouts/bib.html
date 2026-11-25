@@ -66,18 +66,21 @@
             {%- if forloop.first == false -%},&nbsp;{%- endif -%}
             {%- if forloop.last and author_array_limit == author_array_size -%}and&nbsp;{%- endif -%}
           {%- endif -%}
+          {%- assign author_key = author | corresponding_author_key -%}
+          {%- capture corresponding_icon -%}
+            {%- if corresponding_keys contains author_key -%}
+              <span class="corresponding-author" role="img" aria-label="Corresponding author" title="Corresponding author"><svg width="12" height="12" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="1.5" y="3" width="13" height="10" rx="1.5"/><path d="m2 4 6 4.5L14 4"/></svg></span>
+            {%- endif -%}
+          {%- endcapture -%}
           {%- if author_is_self -%}
-            <em>{{author.first}} {{author.last}}</em>
+            <em class="author-self">{{author.first}} {{author.last}}{{corresponding_icon}}</em>
           {%- else -%}
             {%- if coauthor_url -%}
               <a href="{{coauthor_url}}">{{author.first}} {{author.last}}</a>
             {%- else -%}
               {{author.first}} {{author.last}}
             {%- endif -%}
-          {%- endif -%}
-          {%- assign author_key = author | corresponding_author_key -%}
-          {%- if corresponding_keys contains author_key -%}
-            <span class="corresponding-author" role="img" aria-label="Corresponding author" title="Corresponding author"><svg width="13" height="13" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.3" aria-hidden="true" focusable="false"><rect x="1.5" y="3" width="13" height="10" rx="1.2"/><path d="m2 4 6 4.5L14 4"/></svg></span>
+            {{corresponding_icon}}
           {%- endif -%}
         {%- endfor -%}
         {%- assign more_authors = author_array_size | minus: author_array_limit -%}

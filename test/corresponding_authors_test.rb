@@ -39,7 +39,7 @@ class CorrespondingAuthorsTest < Minitest::Test
     assert_equal 1, render_authors('Yebo Feng').scan('class="corresponding-author"').size
     html = render_authors('Feng, Yebo and Zhu, Konglin')
     assert_equal 2, html.scan('class="corresponding-author"').size
-    assert_includes html, '<em>Yebo Feng</em><span class="corresponding-author"'
+    assert_match(/<em class="author-self">Yebo Feng<span class="corresponding-author".*?<\/span><\/em>/, html)
     assert_includes render_authors('Konglin Zhu', 1), 'Konglin Zhu ✉'
   end
 end
